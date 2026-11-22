@@ -1,6 +1,6 @@
 # Sigils and signs
 
-A glyph is a ring with a **sigil** in its middle and **signs** around it. The sigil is the element; the signs say what it does. A sign drawn the other way round (pointing in instead of out) does the opposite.
+A glyph is a ring with a **sigil** in its middle and **signs** around it. The sigil is the element; the signs say what it does. A sign drawn the other way round (pointing in instead of out) does the opposite. Big signs make a spell stronger and small ones weaker, and a sign drawn longer on one side pulls the spell that way. A second sigil drawn among the signs mixes its element in: see [Mixed sigils](glyphs.md#mixed-sigils).
 
 ## Sigils
 

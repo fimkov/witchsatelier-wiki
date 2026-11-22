@@ -62,6 +62,9 @@ You do not have to draw in the middle of a fight. Draw a glyph on paper or in a 
 open. When you need it, hold the page and press ++v++: the ring closes and the spell fires from the page, where
 you look.
 
+To keep the glyphs you have found, craft a [Witch's Grimoire](witch-grimoire.md): a book of your own to draw, name
+and copy glyphs in.
+
 ## Tracing from a book
 
 Hold a book with a pen in the other hand and the page's glyph shows faintly where you look. Scroll to size it,

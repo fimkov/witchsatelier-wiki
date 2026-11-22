@@ -58,6 +58,10 @@ Found in chests and sold by the Stranger, one at random.
 
 ## Other books
 
+### Witch's Grimoire
+
+<div class="card mini-row"><img class="icon big" src="../assets/icons/witch_grimoire.png" alt=""><div><p>A book of your own, crafted blank: draw your glyphs in it, name each page and write notes beside it, copy glyphs into it from walls and from old grimoires, and copy the whole book for others. See <a href="../witch-grimoire/">Witch's Grimoire</a>.</p></div></div>
+
 ### Notes on the Imagined Ring
 
 <div class="card mini-row"><img class="icon big" src="../assets/icons/grimoire.png" alt=""><div><p>A thin notebook on one technique: seeing the ring before drawing it. Read it once and it stays with you: go round twice in the air and the third time lays the ring down true. Rare in library chests; the Stranger sells it.</p></div></div>

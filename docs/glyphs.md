@@ -17,6 +17,8 @@ The symbols themselves are on [Sigils and signs](reference.md); every known glyp
 | **Wear** | A glyph works for as long as it is whole. Rain washes ordinary ink away, feet scuff it, a rag rubs it out. |
 | **Orientation** | A sign drawn the other way round does the opposite: Levitation presses down, Pull pushes, Crush mends. |
 | **Counting** | Some signs count: each Bolt is one fireball, each Bird is one bird. |
+| **Sign size** | Signs drawn big beside their ring make the spell stronger, small ones weaker: up to about a third either way. |
+| **Lean** | A sign drawn longer on one side pulls the spell that way. |
 | **Mixing** | Two kinds of shaping in one ring work side by side, if each is drawn at least twice. A single stray sign does nothing. |
 | **Surface** | A glyph on a wall throws its spell sideways. Earth magic needs a surface: from a page, look at the block. |
 
@@ -24,14 +26,57 @@ The symbols themselves are on [Sigils and signs](reference.md); every known glyp
 
 A ring inside a ring shapes the spell within. Draw a whole glyph, ring it again, and put signs in the band between
 the two rings: **Repetition** keeps the glyph from wearing away, **Enlarge** makes it stronger, **Billowing** makes
-everything around fall soft. A sigil drawn in the band adds its element to the spell inside. Nothing works until
-the **outer** ring is closed. See [Nested glyphs](spells/nested.md).
+everything around fall soft. Nothing works until the **outermost** ring is closed. See [Nested glyphs](spells/nested.md).
 
-## Linked glyphs
+Nesting goes as deep as you like: rings inside rings inside rings. Every band adds its own layer to the spell at the
+heart: a sigil drawn in a band adds its element, and shaping signs there add their shape. A pillar of fire ringed
+with water rises as steam; ring it again and the next band adds its own layer on top. The game shows the effects of
+up to seven layers.
 
-Glyphs joined by a line of ink are one work. Draw a line from the rim of one ring to the rim of another: when one
-wakes, every glyph joined to it wakes too, even one whose own ring was left open. Each glyph in the chain makes all
-the others stronger, so many small linked glyphs beat one big one. The Raincleaver's blade is covered in them.
+## Mixed sigils
+
+<div class="card-media wide"><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/floating_drops.jpg"><source src="../assets/clips/floating_drops.webm" type="video/webm"></video></div>
+
+A second sigil does not have to stand in a band. Draw sigils among the signs, one on each side of the middle sigil,
+and they mix their element into the spell as extra layers. Some pairs make spells of their own:
+
+| Middle | Sides | Spell |
+| --- | --- | --- |
+| Wind (or Airy Forms) | Water | **Floating Drops**: drops of water hang in the air round the ring. They put out burning creatures and fires and moisten farmland |
+| Water | Fire | **Rainflinger**: a bubble that no water gets into |
+| Anything but Light | Light | **Beast Repellent**: animals and hostile creatures are pushed out of its light. Tamed animals are left alone |
+
+## Chains and triggers
+
+<div class="card-media wide"><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/chain.jpg"><source src="../assets/clips/chain.webm" type="video/webm"></video></div>
+
+Glyphs joined by a line of ink, drawn from the rim of one ring to the rim of another, are one chain. When one wakes,
+the rest wake with it, even those whose own rings were left open, and each glyph in the chain makes all the others
+stronger: many small linked glyphs beat one big one. The Raincleaver's blade is covered in them.
+
+- **No Tread in the chain.** It lights in a wave along the lines, glyph after glyph, about a third of a second apart.
+- **A glyph with a Tread sign** is a trigger. It works only while it is pressed: something standing on it (not its
+  maker), or the block it is drawn on powered by redstone (a lever, button, pressure plate or redstone block next
+  to it). Let go, and about two seconds later it waits again.
+- **The rest of a chain with a trigger** waits for it: when the trigger is pressed they light in order along the
+  lines, and when it is released they go back to waiting.
+
+So chains make switches: a door of stone that opens on a lever, a trap under a plate, lights that come on when
+someone walks in.
+
+## Glyph arrows and dispensers
+
+<div class="card-media wide"><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/glyph_arrow.jpg"><source src="../assets/clips/glyph_arrow.webm" type="video/webm"></video></div>
+
+A glyph does not have to be drawn where it is cast.
+
+- **Glyph Arrow.** Craft an arrow with a sheet of paper or a torn page that has a glyph on it. Shot from a bow,
+  crossbow or dispenser, it casts the glyph where it strikes: on the face of the block it hits, or on the ground
+  under the creature it hits. The strike closes a ring left open.
+- **Dispenser.** Give a dispenser paper or a torn page with a glyph on it, and when it fires it casts the glyph from
+  its own front and the page burns away. A blank page it throws out like anything else.
+
+With no ink on the spot to keep it going, a spell cast this way lasts ten seconds at most.
 
 ## Windowways
 

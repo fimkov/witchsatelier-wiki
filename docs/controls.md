@@ -31,6 +31,10 @@ Options, Controls, Key Binds, *Witch's Atelier*. Everything else uses the game's
 | Put pages into a palm quire | Click paper or crumpled pages onto it in your inventory |
 | Show a book glyph for tracing | Hold the book with a pen in the other hand: the glyph shows where you look |
 | Size it / pin it | Scroll to size it, sneak to pin it, then trace over it with the pen |
+| Write in a Witch's Grimoire | Open it; click the top of the left page to name the page, write notes below |
+| Draw / rub out in it | Pen in the other hand; drag with the right mouse button to rub out |
+| Copy a glyph into it | Sneak and use the open grimoire on a glyph in the world, or with an old grimoire in the other hand |
+| Copy the whole grimoire | Crafting grid: the written grimoire with blank ones |
 
 ## Artifacts
 
@@ -44,3 +48,11 @@ Options, Controls, Key Binds, *Witch's Atelier*. Everything else uses the game's
 | Part water or lava | Use the Raincleaver towards it; sneak and use on the ground to plant it |
 | Follow a light tracer bangle | Hold Use |
 | Ride a sealchair | Sit in it and look where you want it to walk |
+
+## Triggers and arrows
+
+| Action | How |
+| --- | --- |
+| Press a Tread glyph | Stand on it, or power the block it is drawn on with a lever, button, pressure plate or redstone block |
+| Cast a glyph from afar | Shoot a glyph arrow from a bow or crossbow |
+| Cast a glyph from a dispenser | Put paper or a torn page with a glyph in it, or glyph arrows, and power it |

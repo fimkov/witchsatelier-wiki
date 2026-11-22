@@ -34,7 +34,7 @@ theme:
         name: Light mode
 
 extra_css:
-  - stylesheets/grimoire.css?v=3
+  - stylesheets/grimoire.css?v=4
 
 markdown_extensions:
   - admonition
@@ -49,6 +49,7 @@ nav:
   - Getting started: getting-started.md
   - Controls: controls.md
   - Books: books.md
+  - Witch's Grimoire: witch-grimoire.md
   - How glyphs work: glyphs.md
   - Sigils and signs: reference.md
   - Spells:
