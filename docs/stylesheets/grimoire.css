@@ -305,9 +305,9 @@
 .md-typeset .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
-  gap: 1.4rem;
-  align-items: start;
-  margin: 0.4rem 0 1.6rem;
+  gap: 1.6rem;
+  align-items: center;
+  margin: 0 0 1.8rem;
 }
 
 .md-typeset .hero .lead { font-size: 1.05rem; margin-top: 0; }

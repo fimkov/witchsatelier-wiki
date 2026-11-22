@@ -34,7 +34,7 @@ theme:
         name: Light mode
 
 extra_css:
-  - stylesheets/grimoire.css?v=2
+  - stylesheets/grimoire.css?v=3
 
 markdown_extensions:
   - admonition
