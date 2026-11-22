@@ -21,7 +21,7 @@ in old chests.
 
 | Act | Weight |
 | --- | --- |
-| Turning a living thing to stone | Very heavy |
+| Petrification | Very heavy |
 | Being seen drawing or casting by villagers | Moderate, once per glyph |
 | Drawing with blood ink | Light, but every stroke counts |
 
@@ -31,15 +31,25 @@ Your debt to the Pact fades slowly with time.
 
 <div class="card spell"><div class="card-media"><div class="glyph"><img src="../assets/spells/petrification.svg" alt="The Petrification glyph"></div><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/petrification.jpg"><source src="../assets/clips/petrification.webm" type="video/webm"></video></div><div class="recipe"><span class="recipe-label">Inside</span><span class="chip"><img src="../assets/sigils/earth.svg" alt="">Earth</span><span class="plus">+</span><span class="chip"><img src="../assets/signs/eye.svg" alt="">4 × Eye</span></div></div>
 
-Earth under the gaze of four Eyes. Whatever living thing stands before the glyph stiffens and turns to stone.
-It is drawn in blood ink on the last page of *A Witch's Primer* and in *The Black-Bound Book*, and Brimhats
+Earth under the gaze of four Eyes. A ball of glowing cyan crystal bursts out of the glyph and grows about a block
+every quarter of a second, up to 2.5 blocks plus 2.5 for every block of ring radius (10 at most). It swallows
+everything inside: walls, floors, plants, furniture, even the air, and long crystal shards stand out all round its
+surface when it is done.
+
+- Every creature inside slows, stiffens and becomes a glowing crystal statue. Players are only held fast.
+- Liquids, and blocks that hold things (chests and the like), are left as they are.
+- The glyph's own ground and the space just over it are spared.
+- Every crystal block remembers what it was. Broken, it drops nothing, and what it was is lost.
+
+The glyph is drawn in blood ink on the last page of *A Witch's Primer* and in *The Black-Bound Book*, and Brimhats
 carry it on torn pages, which also turn up in old chests.
 
 ## Integration
 
 <div class="card-media wide"><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/integration.jpg"><source src="../assets/clips/integration.webm" type="video/webm"></video></div>
 
-Only **Integration** (Earth with four reversed Crush signs) drawn around a statue gives it back its life.
+Only **Integration** (Earth with four reversed Crush signs) drawn on the crystal undoes it: every block goes back to
+what it was, and every statue comes back to life. Break the crystal first, and nothing can bring that part back.
 See [Earth spells](spells/earth.md#integration).
 
 ## Blood ink

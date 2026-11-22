@@ -12,7 +12,7 @@ Spells of the Earth sigil. Earth magic needs a surface: when casting from a page
 
 ## Integration
 
-<div class="card spell"><div class="card-media no-glyph"><video autoplay muted loop playsinline preload="metadata" poster="../../assets/clips/integration.jpg"><source src="../../assets/clips/integration.webm" type="video/webm"></video></div><div class="recipe"><span class="recipe-label">Inside</span><span class="chip"><img src="../../assets/sigils/earth.svg" alt="">Earth</span><span class="plus">+</span><span class="chip"><img src="../../assets/signs/crush.svg" alt="">4 × Crush (reversed)</span></div><div class="desc"><p>Earth with four Crush signs turned the other way. Broken stone is put back together under it. Drawn around a statue, it gives back the life that petrification took.</p></div><div class="found">Not in any book: it is Stone Breaker with its signs turned the other way.</div></div>
+<div class="card spell"><div class="card-media no-glyph"><video autoplay muted loop playsinline preload="metadata" poster="../../assets/clips/integration.jpg"><source src="../../assets/clips/integration.webm" type="video/webm"></video></div><div class="recipe"><span class="recipe-label">Inside</span><span class="chip"><img src="../../assets/sigils/earth.svg" alt="">Earth</span><span class="plus">+</span><span class="chip"><img src="../../assets/signs/crush.svg" alt="">4 × Crush (reversed)</span></div><div class="desc"><p>Earth with four Crush signs turned the other way. Broken stone is put back together under it. Drawn on the crystal of a petrification, it gives back everything the crystal took, blocks and creatures alike.</p></div><div class="found">Not in any book: it is Stone Breaker with its signs turned the other way.</div></div>
 
 ## Earthen Wall
 
