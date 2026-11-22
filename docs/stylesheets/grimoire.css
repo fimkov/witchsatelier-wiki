@@ -347,3 +347,18 @@
   font-size: 0.72rem;
   color: var(--md-default-fg-color--light);
 }
+
+/* ------------------------------------------------------------ logo */
+
+.md-header__button.md-logo img { border-radius: 4px; }
+
+.md-typeset .hero img.logo {
+  display: block;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 14px;
+  margin-bottom: 0.9rem;
+  box-shadow: 0 4px 18px rgba(30, 20, 60, 0.35);
+}
+
+.md-footer-copyright { font-size: 0.62rem; line-height: 1.5; max-width: 40rem; }

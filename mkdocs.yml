@@ -3,11 +3,15 @@ site_description: Player guide for Witch's Atelier, a Minecraft mod where spells
 site_url: https://fimkov.github.io/witchsatelier-wiki/
 repo_url: https://github.com/fimkov/witchsatelier-wiki
 repo_name: witchsatelier-wiki
+copyright: >-
+  Witch's Atelier is released under the MIT License.
+  Witch Hat Atelier and its names belong to Kamome Shirahama and Kodansha;
+  this is an unofficial fan work.
 
 theme:
   name: material
-  logo: assets/icons/grimoire.png
-  favicon: assets/icons/grimoire.png
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   font:
     text: Alegreya Sans
     code: JetBrains Mono
