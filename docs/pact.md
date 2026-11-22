@@ -6,7 +6,8 @@
 > *On Forbidden Magic, Book of Contraptions*
 
 Break the Pact, and sooner or later the Knights Moralis come. The whole story is in *The Black-Bound Book*
-(see [Books](books.md#the-black-bound-book)), which Brimhats rarely leave behind.
+(see [Books](books.md#the-black-bound-book)): Brimhats rarely leave one behind, and now and then it turns up
+in old chests.
 
 ## The Day of the Pact
 
@@ -32,7 +33,7 @@ Your debt to the Pact fades slowly with time.
 
 Earth under the gaze of four Eyes. Whatever living thing stands before the glyph stiffens and turns to stone.
 It is drawn in blood ink on the last page of *A Witch's Primer* and in *The Black-Bound Book*, and Brimhats
-carry it on torn pages.
+carry it on torn pages, which also turn up in old chests.
 
 ## Integration
 

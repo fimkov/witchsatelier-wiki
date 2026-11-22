@@ -1,6 +1,6 @@
 # Forbidden
 
-Glyphs the Pact forbids. Petrification is drawn in blood ink on the last page of A Witch's Primer, and in The Black-Bound Book; Brimhats carry it on torn pages. Using it brings the Knights Moralis: see [The Pact](../pact.md).
+Glyphs the Pact forbids. Petrification is drawn in blood ink on the last page of A Witch's Primer, and in The Black-Bound Book; Brimhats carry it on torn pages, and such pages turn up in old chests. Using it brings the Knights Moralis: see [The Pact](../pact.md).
 
 ## Petrification
 

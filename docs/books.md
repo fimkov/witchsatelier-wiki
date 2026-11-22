@@ -10,8 +10,8 @@ Glyphs in a book are drawn whole, in lasting ink, and do not cast from the book:
 | --- | --- |
 | The Stranger, first meeting | A Witch's Primer, an ink pen and conjuring ink, as a gift |
 | The Stranger, trades | One themed volume (12 emeralds), the Book of Contraptions (8), Notes on the Imagined Ring (16), loose pages (2 each) |
-| Stronghold libraries and library ruins | A themed volume (35%), Notes on the Imagined Ring (14%), one to three loose pages (50%) |
-| Dungeons, mineshafts, temples, mansions, ancient cities, ruined portals, trial vaults | A themed volume (6%), Notes on the Imagined Ring (2%), one to three loose pages (22%) |
+| Stronghold libraries and library ruins | A themed volume (35%), Notes on the Imagined Ring (14%), one to three loose pages (50%), a torn forbidden page (4%), The Black-Bound Book (1%) |
+| Dungeons, mineshafts, temples, mansions, ancient cities, ruined portals, trial vaults | A themed volume (6%), Notes on the Imagined Ring (2%), one to three loose pages (22%), a torn forbidden page (8%), The Black-Bound Book (2%) |
 | Brimhats | A torn forbidden page (15%), The Black-Bound Book (3%) |
 
 **Loose pages** are crumpled single pages with one glyph from any book, prepared with the ring left open: hold one and press ++v++ to cast it. Library ruins also have a few glyphs left drawn on their floors.
@@ -68,5 +68,5 @@ Found in chests and sold by the Stranger, one at random.
 
 ### The Black-Bound Book
 
-<div class="card mini-row"><img class="icon big" src="../assets/icons/grimoire.png" alt=""><div><p>The forbidden book: <em>On Forbidden Magic</em>, <em>The Day of the Pact</em>, <em>Blood Ink</em>, the Petrification glyph, <em>The Brimhats</em> and <em>The Knights Moralis</em>. Each page of lore faces a picture drawn in blood ink. Brimhats rarely leave one behind. See <a href="../pact/">The Pact</a>.</p></div></div>
+<div class="card mini-row"><img class="icon big" src="../assets/icons/grimoire.png" alt=""><div><p>The forbidden book: <em>On Forbidden Magic</em>, <em>The Day of the Pact</em>, <em>Blood Ink</em>, the Petrification glyph, <em>The Brimhats</em> and <em>The Knights Moralis</em>. Each page of lore faces a picture drawn in blood ink. Rare: Brimhats sometimes leave one behind, and it turns up in old chests. See <a href="../pact/">The Pact</a>.</p></div></div>
 
