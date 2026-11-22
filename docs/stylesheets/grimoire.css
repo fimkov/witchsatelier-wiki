@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&display=swap");
+
+/* ------------------------------------------------------------ colours */
+
+:root {
+  --parchment: #efe4cc;
+  --ink: #2a1a14;
+  --slot: 3.1rem;
+}
+
+[data-md-color-scheme="grimoire"] {
+  --md-default-bg-color: #f6efdf;
+  --md-default-fg-color: #2a1a14;
+  --md-default-fg-color--light: rgba(42, 26, 20, 0.72);
+  --md-default-fg-color--lighter: rgba(42, 26, 20, 0.42);
+  --md-default-fg-color--lightest: rgba(42, 26, 20, 0.12);
+  --md-primary-fg-color: #3a2618;
+  --md-primary-fg-color--light: #5a3d28;
+  --md-primary-fg-color--dark: #26180f;
+  --md-primary-bg-color: #f6efdf;
+  --md-primary-bg-color--light: rgba(246, 239, 223, 0.7);
+  --md-accent-fg-color: #a4501c;
+  --md-typeset-color: #2a1a14;
+  --md-typeset-a-color: #8a3f14;
+  --md-code-bg-color: #ece1c7;
+  --md-code-fg-color: #3a2618;
+  --md-footer-bg-color: #3a2618;
+  --md-footer-bg-color--dark: #26180f;
+  --md-typeset-table-color: rgba(42, 26, 20, 0.14);
+  --card-bg: #fbf6ea;
+  --card-border: #dccaa4;
+  --heading: #3a2214;
+  --slot-bg: #d9cbab;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 28;
+  --md-default-bg-color: #1c1612;
+  --md-default-fg-color: #e9dfcc;
+  --md-default-fg-color--light: rgba(233, 223, 204, 0.72);
+  --md-default-fg-color--lighter: rgba(233, 223, 204, 0.42);
+  --md-default-fg-color--lightest: rgba(233, 223, 204, 0.12);
+  --md-primary-fg-color: #2c1f16;
+  --md-primary-fg-color--light: #46331f;
+  --md-primary-fg-color--dark: #1a120c;
+  --md-primary-bg-color: #efe4cc;
+  --md-accent-fg-color: #e3a35f;
+  --md-typeset-color: #e9dfcc;
+  --md-typeset-a-color: #e0a868;
+  --md-code-bg-color: #2a211a;
+  --md-footer-bg-color: #2c1f16;
+  --md-footer-bg-color--dark: #1a120c;
+  --md-typeset-table-color: rgba(233, 223, 204, 0.14);
+  --card-bg: #251d17;
+  --card-border: #3e3024;
+  --heading: #f0dcb8;
+  --slot-bg: #3a2e24;
+}
+
+/* ------------------------------------------------------------ type */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-header__title,
+.md-nav__title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: var(--heading);
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.md-typeset h1 { font-size: 2.6em; margin-bottom: 0.4em; }
+.md-typeset h2 { font-size: 1.85em; margin-top: 1.6em; border-bottom: 1px solid var(--card-border); padding-bottom: 0.15em; }
+.md-typeset h3 { font-size: 1.45em; }
+.md-header__title { font-size: 1.15rem; font-weight: 600; }
+
+.md-typeset { font-size: 0.82rem; line-height: 1.65; }
+
+.md-typeset table:not([class]) { font-size: 0.78rem; }
+.md-typeset table:not([class]) th { background: var(--card-bg); }
+
+/* ------------------------------------------------------------ shared pieces */
+
+.md-typeset .glyph {
+  display: block;
+  background: var(--parchment);
+  border-radius: 6px;
+  box-shadow: inset 0 0 18px rgba(120, 85, 40, 0.18);
+}
+
+.md-typeset .glyph img { display: block; width: 100%; height: 100%; object-fit: contain; }
+
+.md-typeset img.icon {
+  image-rendering: pixelated;
+  width: 2.6rem;
+  height: 2.6rem;
+  vertical-align: middle;
+}
+
+.md-typeset img.icon.big { width: 4rem; height: 4rem; flex: none; }
+
+.md-typeset video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #000;
+}
+
+.md-typeset .card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 0.9rem;
+  margin: 0.6rem 0 1.8rem;
+}
+
+.md-typeset .card .desc p:first-child { margin-top: 0; }
+.md-typeset .card .desc p:last-child { margin-bottom: 0; }
+
+/* ------------------------------------------------------------ spell cards */
+
+.md-typeset .card-media {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr);
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.md-typeset .card-media .glyph { aspect-ratio: 1; padding: 0.4rem; }
+.md-typeset .card-media.no-glyph,
+.md-typeset .card-media.wide { grid-template-columns: minmax(0, 1fr); max-width: 36rem; }
+
+.md-typeset .recipe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.3rem 0 0.7rem;
+}
+
+.md-typeset .recipe-label {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  min-width: 3.4rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.12rem 0.6rem 0.12rem 0.25rem;
+  border-radius: 999px;
+  background: var(--parchment);
+  color: var(--ink);
+  border: 1px solid #cdb88c;
+  font-size: 0.74rem;
+  white-space: nowrap;
+}
+
+.md-typeset .chip img { width: 1.5rem; height: 1.5rem; }
+.md-typeset .plus { color: var(--md-default-fg-color--lighter); }
+
+@media (max-width: 40em) {
+  .md-typeset .card-media { grid-template-columns: minmax(0, 1fr); }
+  .md-typeset .card-media .glyph { max-width: 14rem; }
+}
+
+/* ------------------------------------------------------------ galleries */
+
+.md-typeset .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 0.8rem;
+  margin: 0.6rem 0 1.4rem;
+}
+
+.md-typeset .tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  text-align: center;
+  color: var(--md-typeset-color);
+  font-size: 0.74rem;
+  line-height: 1.25;
+}
+
+.md-typeset .tile .glyph { width: 100%; aspect-ratio: 1; padding: 0.3rem; transition: transform 0.15s ease; }
+.md-typeset .tile img.photo { object-fit: cover; border-radius: 6px; }
+.md-typeset .tile .glyph:has(img.photo) { padding: 0; }
+.md-typeset .tile:hover { color: var(--md-accent-fg-color); }
+.md-typeset .tile:hover .glyph { transform: translateY(-2px); }
+
+.md-typeset .symbols {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 0.8rem;
+  margin: 0.6rem 0 1.4rem;
+}
+
+.md-typeset .symbol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 0.6rem;
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.md-typeset .symbol .glyph { width: 5rem; height: 5rem; padding: 0.35rem; margin-bottom: 0.2rem; }
+.md-typeset .symbol strong { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.1rem; color: var(--heading); }
+
+/* ------------------------------------------------------------ crafting */
+
+.md-typeset .craft { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.md-typeset .grid { display: grid; gap: 3px; }
+
+.md-typeset .slot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--slot);
+  height: var(--slot);
+  background: var(--slot-bg);
+  border-radius: 3px;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.18), inset -1px -1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.md-typeset .slot.text {
+  font-size: 0.5rem;
+  line-height: 1.15;
+  text-align: center;
+  padding: 0.15rem;
+  color: var(--md-default-fg-color);
+  overflow: hidden;
+}
+
+.md-typeset .slot img.icon { width: 80%; height: 80%; }
+.md-typeset .slot.result { width: calc(var(--slot) * 1.3); height: calc(var(--slot) * 1.3); }
+.md-typeset .count { position: absolute; right: 0.2rem; bottom: 0.05rem; font-weight: 700; font-size: 0.75rem; text-shadow: 0 0 3px var(--slot-bg); }
+.md-typeset .arrow { font-size: 1.3rem; color: var(--md-default-fg-color--lighter); }
+.md-typeset .craft-note { font-size: 0.68rem; color: var(--md-default-fg-color--light); margin-top: 0.35rem; }
+
+.md-typeset .tag {
+  display: inline-block;
+  padding: 0 0.45rem;
+  border-radius: 999px;
+  background: var(--md-accent-fg-color);
+  color: #fff;
+  font-size: 0.62rem;
+}
+
+/* ------------------------------------------------------------ artifacts */
+
+.md-typeset .art-head { display: flex; gap: 0.9rem; align-items: flex-start; margin-bottom: 0.8rem; }
+
+.md-typeset .art-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.md-typeset .wake { display: flex; align-items: center; gap: 0.7rem; }
+.md-typeset .wake .glyph { width: 6.5rem; height: 6.5rem; padding: 0.3rem; flex: none; }
+.md-typeset .wake .recipe { flex-direction: column; align-items: flex-start; margin: 0; }
+
+.md-typeset .craft-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.8rem;
+}
+
+.md-typeset .card.mini { margin: 0; }
+.md-typeset .card.mini strong { display: block; margin-bottom: 0.5rem; font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.1rem; }
+.md-typeset .card.mini-row { display: flex; gap: 0.9rem; align-items: center; margin: 0.6rem 0; }
+.md-typeset .card.mini-row p { margin: 0.2rem 0 0; }
+
+/* ------------------------------------------------------------ inks */
+
+.md-typeset table.inks { display: table; width: 100%; border-collapse: collapse; font-size: 0.76rem; }
+.md-typeset table.inks th, .md-typeset table.inks td { padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--card-border); text-align: left; vertical-align: middle; }
+.md-typeset table.inks th { font-weight: 700; }
+
+.md-typeset .flow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0.8rem 0 1.2rem; }
+.md-typeset .step { display: flex; flex-direction: column; align-items: center; gap: 0.2rem; font-size: 0.7rem; text-align: center; }
+
+/* ------------------------------------------------------------ home */
+
+.md-typeset .hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+  gap: 1.4rem;
+  align-items: center;
+  margin: 0.4rem 0 1.6rem;
+}
+
+.md-typeset .hero .lead { font-size: 1.05rem; }
+
+.md-typeset .sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 0.8rem;
+}
+
+.md-typeset .section {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 0.7rem;
+  color: var(--md-typeset-color);
+  line-height: 1.35;
+  font-size: 0.74rem;
+}
+
+.md-typeset .section strong { display: block; font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.15rem; color: var(--heading); }
+.md-typeset .section:hover { border-color: var(--md-accent-fg-color); color: var(--md-typeset-color); }
+
+@media (max-width: 45em) {
+  .md-typeset .hero { grid-template-columns: minmax(0, 1fr); }
+}
+
+.md-typeset .wake .plus { display: none; }

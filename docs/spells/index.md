@@ -1,0 +1,36 @@
+# Spells
+
+Every glyph found in the grimoires, by element. Pick one to see how it is drawn, what it is made of and what it does. Counts are what the books draw; most spells still work with more or fewer signs, only weaker or stronger.
+
+## Fire
+
+<div class="gallery"><a class="tile" href="fire/#pillar-of-flame"><span class="glyph"><img src="../assets/spells/pillar_of_flame.svg" alt=""></span><span>Pillar of Flame</span></a><a class="tile" href="fire/#fire-bolts"><span class="glyph"><img src="../assets/spells/fire_bolts.svg" alt=""></span><span>Fire Bolts</span></a><a class="tile" href="fire/#sentinel-bolts"><span class="glyph"><img src="../assets/spells/sentinel_bolts.svg" alt=""></span><span>Sentinel Bolts</span></a><a class="tile" href="fire/#pillar-and-volley"><span class="glyph"><img src="../assets/spells/pillar_and_volley.svg" alt=""></span><span>Pillar and Volley</span></a><a class="tile" href="fire/#fan-of-flame"><span class="glyph"><img src="../assets/spells/fan_of_flame.svg" alt=""></span><span>Fan of Flame</span></a><a class="tile" href="fire/#warming-hearth"><span class="glyph"><img src="../assets/spells/warming_hearth.svg" alt=""></span><span>Warming Hearth</span></a><a class="tile" href="fire/#snare-of-flame"><span class="glyph"><img src="../assets/spells/snare_of_flame.svg" alt=""></span><span>Snare of Flame</span></a></div>
+
+## Water
+
+<div class="gallery"><a class="tile" href="water/#spilling-water"><span class="glyph"><img src="../assets/spells/spilling_water.svg" alt=""></span><span>Spilling Water</span></a><a class="tile" href="water/#water-jet"><span class="glyph"><img src="../assets/spells/water_jet.svg" alt=""></span><span>Water Jet</span></a></div>
+
+## Earth
+
+<div class="gallery"><a class="tile" href="earth/#quickening-soil"><span class="glyph"><img src="../assets/spells/quickening_soil.svg" alt=""></span><span>Quickening Soil</span></a><a class="tile" href="earth/#stone-breaker"><span class="glyph"><img src="../assets/spells/stone_breaker.svg" alt=""></span><span>Stone Breaker</span></a><a class="tile" href="earth/#integration"><span class="glyph"><img src="../assets/clips/integration.jpg" alt="" class="photo"></span><span>Integration</span></a><a class="tile" href="earth/#earthen-wall"><span class="glyph"><img src="../assets/spells/earthen_wall.svg" alt=""></span><span>Earthen Wall</span></a><a class="tile" href="earth/#rising-earth"><span class="glyph"><img src="../assets/spells/rising_earth.svg" alt=""></span><span>Rising Earth</span></a><a class="tile" href="earth/#mire"><span class="glyph"><img src="../assets/spells/mire.svg" alt=""></span><span>Mire</span></a></div>
+
+## Wind
+
+<div class="gallery"><a class="tile" href="wind/#wind-underfoot"><span class="glyph"><img src="../assets/spells/wind_underfoot.svg" alt=""></span><span>Wind Underfoot</span></a><a class="tile" href="wind/#gathering-wind"><span class="glyph"><img src="../assets/spells/gathering_wind.svg" alt=""></span><span>Gathering Wind</span></a><a class="tile" href="wind/#gathering-breeze"><span class="glyph"><img src="../assets/spells/gathering_breeze.svg" alt=""></span><span>Gathering Breeze</span></a><a class="tile" href="wind/#feather-fall"><span class="glyph"><img src="../assets/spells/feather_fall.svg" alt=""></span><span>Feather Fall</span></a><a class="tile" href="wind/#sylph-step"><span class="glyph"><img src="../assets/spells/sylph_step.svg" alt=""></span><span>Sylph Step</span></a><a class="tile" href="wind/#breath-of-the-deep"><span class="glyph"><img src="../assets/spells/breath_of_the_deep.svg" alt=""></span><span>Breath of the Deep</span></a></div>
+
+## Light
+
+<div class="gallery"><a class="tile" href="light/#lantern"><span class="glyph"><img src="../assets/spells/lantern.svg" alt=""></span><span>Lantern</span></a><a class="tile" href="light/#birds-of-light"><span class="glyph"><img src="../assets/spells/birds_of_light.svg" alt=""></span><span>Birds of Light</span></a><a class="tile" href="light/#beacon-of-birds"><span class="glyph"><img src="../assets/spells/beacon_of_birds.svg" alt=""></span><span>Beacon of Birds</span></a><a class="tile" href="light/#rain-of-light"><span class="glyph"><img src="../assets/spells/rain_of_light.svg" alt=""></span><span>Rain of Light</span></a><a class="tile" href="light/#sunlit-spill"><span class="glyph"><img src="../assets/spells/sunlit_spill.svg" alt=""></span><span>Sunlit Spill</span></a><a class="tile" href="light/#lance-of-light"><span class="glyph"><img src="../assets/spells/lance_of_light.svg" alt=""></span><span>Lance of Light</span></a><a class="tile" href="light/#binding-threads"><span class="glyph"><img src="../assets/spells/binding_threads.svg" alt=""></span><span>Binding Threads</span></a></div>
+
+## Signs alone
+
+<div class="gallery"><a class="tile" href="signs-alone/#windowway"><span class="glyph"><img src="../assets/spells/windowway.svg" alt=""></span><span>Windowway</span></a><a class="tile" href="signs-alone/#crystal-ward"><span class="glyph"><img src="../assets/spells/crystal_ward.svg" alt=""></span><span>Crystal Ward</span></a><a class="tile" href="signs-alone/#night-eye"><span class="glyph"><img src="../assets/spells/night_eye.svg" alt=""></span><span>Night Eye</span></a><a class="tile" href="signs-alone/#veil-of-unseeing"><span class="glyph"><img src="../assets/spells/veil_of_unseeing.svg" alt=""></span><span>Veil of Unseeing</span></a><a class="tile" href="signs-alone/#puppet-dance"><span class="glyph"><img src="../assets/spells/puppet_dance.svg" alt=""></span><span>Puppet Dance</span></a></div>
+
+## Nested glyphs
+
+<div class="gallery"><a class="tile" href="nested/#great-lantern"><span class="glyph"><img src="../assets/spells/great_lantern.svg" alt=""></span><span>Great Lantern</span></a><a class="tile" href="nested/#everburning-pillar"><span class="glyph"><img src="../assets/spells/everburning_pillar.svg" alt=""></span><span>Everburning Pillar</span></a><a class="tile" href="nested/#tidal-ring"><span class="glyph"><img src="../assets/spells/tidal_ring.svg" alt=""></span><span>Tidal Ring</span></a><a class="tile" href="nested/#steam-pillar"><span class="glyph"><img src="../assets/spells/steam_pillar.svg" alt=""></span><span>Steam Pillar</span></a><a class="tile" href="nested/#bed-of-sand"><span class="glyph"><img src="../assets/spells/bed_of_sand.svg" alt=""></span><span>Bed of Sand</span></a></div>
+
+## Forbidden
+
+<div class="gallery"><a class="tile" href="forbidden/#petrification"><span class="glyph"><img src="../assets/spells/petrification.svg" alt=""></span><span>Petrification</span></a></div>
+

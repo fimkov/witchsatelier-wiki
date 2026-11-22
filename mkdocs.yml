@@ -1,31 +1,40 @@
-site_name: Witch's Atelier Wiki
+site_name: Witch's Atelier
 site_description: Player guide for Witch's Atelier, a Minecraft mod where spells are drawn as glyphs.
 site_url: https://fimkov.github.io/witchsatelier-wiki/
 repo_url: https://github.com/fimkov/witchsatelier-wiki
-edit_uri: edit/main/docs/
+repo_name: witchsatelier-wiki
 
 theme:
   name: material
+  logo: assets/icons/grimoire.png
+  favicon: assets/icons/grimoire.png
+  font:
+    text: Alegreya Sans
+    code: JetBrains Mono
   features:
+    - navigation.indexes
     - navigation.sections
     - navigation.top
     - search.highlight
     - toc.follow
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue grey
-      accent: indigo
+      scheme: grimoire
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Light mode
+
+extra_css:
+  - stylesheets/grimoire.css
 
 markdown_extensions:
   - admonition
@@ -38,8 +47,19 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started: getting-started.md
-  - Glyphs: glyphs.md
-  - Inks: inks.md
+  - How glyphs work: glyphs.md
+  - Sigils and signs: reference.md
+  - Spells:
+      - spells/index.md
+      - Fire: spells/fire.md
+      - Water: spells/water.md
+      - Earth: spells/earth.md
+      - Wind: spells/wind.md
+      - Light: spells/light.md
+      - Signs alone: spells/signs-alone.md
+      - Nested glyphs: spells/nested.md
+      - Forbidden: spells/forbidden.md
+  - Inks and tools: inks.md
   - Artifacts: artifacts.md
   - Creatures: creatures.md
   - The Pact: pact.md

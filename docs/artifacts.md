@@ -1,196 +1,88 @@
 # Artifacts
 
-Artifacts are magical things made in two steps.
+Artifacts are made in two steps. The crafting table gives you the artifact **dormant**: it looks finished and does nothing. To wake it, hold it in one hand and a loaded pen in the other and use the pen in the air. The glyph it wants shows faintly on it: trace it, close the ring, and the artifact works from then on.
 
-1. **Craft it.** The crafting table gives you the artifact, but **dormant**: it looks finished and does nothing.
-2. **Wake it.** Hold the dormant artifact in one hand and a loaded pen in the other, then use the pen in the air.
-   The glyph it needs shows faintly on it. Trace it and close the ring: the artifact wakes and works from then on.
-
-If JEI or EMI is installed, the wake glyph of every artifact is listed under the **Awakening** category.
-
-Some artifacts are **contraptions**: their seal wears out with use and has to be restored. When a contraption
-fades, use a pen with ink on it.
-
-## Wake glyphs
-
-| Artifact | Wake glyph |
-| --- | --- |
-| Washing Barrel | Water + 4 Repetition |
-| Glowstone Path | Light + 4 Float |
-| Void Basin | Window + 4 Pull |
-| Palm Dragon Teacup | Water + 4 Column |
-| Sealchair | Wind + 4 Float |
-| Beast Warding Tower | Diamond + 4 Column |
-| Arcane Lense | Light + 4 Convergence |
-| Snugstone | Fire + 4 Radial |
-| Raincleaver | Water + 4 Crush |
-| Mirror Mantle of Borrowshade | Vision + 4 Weave |
-| Wingcloak | Wind Underfoot alone |
-| Ins-tent Staff | Earth + 4 Levitation |
-| Light Tracer Bangle | Light + 4 Pull |
-| Vapor Bubble | Water + 4 Pull |
+With JEI or EMI installed, every wake glyph is also listed under **Awakening**.
 
 ## Contraptions for the home
 
+Things that do magic for anyone. Most of their seals wear out: when one fades, use an inked pen on it to restore it.
+
 ### Beast Warding Tower
 
-While its seal holds, no hostile creature spawns within 24 blocks, and those that come near are driven back.
-Restore the seal with a pen every few days, when its hatch goes dark.
-
-```
-B L B     B = Bricks
-B H B     L = Lantern
-B B B     H = Leather
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/beast_warding_tower.png" alt=""><div class="desc"><p>A small brick tower with a Beast Repellent seal on hide behind its hatch. While the seal holds, no hostile creature is born within twenty-four blocks, and those that come near are driven back. Restore the seal with a pen and ink every few days, when its hatch goes dark.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Bricks</span><span class="slot text">Lantern</span><span class="slot text">Bricks</span><span class="slot text">Bricks</span><span class="slot text">Leather</span><span class="slot text">Bricks</span><span class="slot text">Bricks</span><span class="slot text">Bricks</span><span class="slot text">Bricks</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/beast_warding_tower.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/beast_warding_tower.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/signs/diamond.svg" alt="">Diamond</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/column.svg" alt="">4 × Column</span></div></div></div></div>
 
 ### Washing Barrel
 
-Put a worn tool, weapon or garment in and it slowly comes out whole again. Take it out with an empty hand.
-The seal only wears while it is washing something.
-
-Shapeless: Barrel + Water Bucket + Lasting Ink.
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/washing_barrel.png" alt=""><div class="desc"><p>A Repetition seal under the lid keeps turning what lies inside back to how it was. Put a worn tool, weapon or garment in and it comes out whole again, slowly. The seal only wears while it is washing something. Take it out with an empty hand.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Barrel</span><span class="slot text">Water Bucket</span><span class="slot" title="Lasting Ink"><img class="icon" src="../assets/icons/lasting_ink.png" alt="Lasting Ink"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/washing_barrel.png" alt=""></span></div><div class="craft-note">Crafting table, shapeless <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/washing_barrel.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/water.svg" alt="">Water</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/repetition.svg" alt="">4 × Repetition</span></div></div></div></div>
 
 ### Glowstone Path
 
-A paving stone in two halves. Your weight presses them together and the stone glows under your feet, and a
-little after. Makes two.
-
-```
-S     S = Smooth Stone Slab
-G     G = Glowstone Dust
-S
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/glowstone_path.png" alt=""><div class="desc"><p>A paving stone in two halves, the upper one floating on float keystones. Your weight presses them together, the ring closes, and the stone glows under your feet. Lay a path of them through the dark.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(1,var(--slot))"><span class="slot text">Smooth Stone Slab</span><span class="slot text">Glowstone Dust</span><span class="slot text">Smooth Stone Slab</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/glowstone_path.png" alt=""><span class="count">2</span></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/glowstone_path.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/light.svg" alt="">Light</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/float.svg" alt="">4 × Float</span></div></div></div></div>
 
 ### Snugstone
 
-Warm without a flame. Carried, it keeps frost away; held, it thaws snow and ice; it burns long in a furnace.
-Makes two.
-
-Shapeless: Smooth Stone Slab + Conjuring Ink + Blaze Powder.
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/snugstone.png" alt=""><div class="desc"><p>Warm without a flame. Carried, it keeps frost away; held, it thaws snow and ice; burns long in a furnace.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Smooth Stone Slab</span><span class="slot" title="Conjuring Ink"><img class="icon" src="../assets/icons/conjuring_ink.png" alt="Conjuring Ink"></span><span class="slot text">Blaze Powder</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/snugstone.png" alt=""><span class="count">2</span></span></div><div class="craft-note">Crafting table, shapeless <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/snugstone.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/fire.svg" alt="">Fire</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/radial.svg" alt="">4 × Radial</span></div></div></div></div>
 
 ### Vapor Bubble
 
-Pull the trays apart and the moisture in the air gathers into water. Pour it out where you point, or into an
-empty bottle you carry.
-
-```
-W . W     W = Any Wooden Slab
-S I S     S = String
-W W W     I = Conjuring Ink
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/vapor_bubble.png" alt=""><div class="desc"><p>Pull the trays apart and the air&#x27;s moisture gathers into water. Pour it out where you point, or into an empty bottle you carry.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Any Wooden Slab</span><span class="slot"></span><span class="slot text">Any Wooden Slab</span><span class="slot text">String</span><span class="slot" title="Conjuring Ink"><img class="icon" src="../assets/icons/conjuring_ink.png" alt="Conjuring Ink"></span><span class="slot text">String</span><span class="slot text">Any Wooden Slab</span><span class="slot text">Any Wooden Slab</span><span class="slot text">Any Wooden Slab</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/vapor_bubble.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/vapor_bubble.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/water.svg" alt="">Water</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/pull.svg" alt="">4 × Pull</span></div></div></div></div>
 
 ### Palm Dragon Teacup
 
-Set it down and use it: the tea rises in the shape of a little dragon. Entirely useless; everyone wants one.
-
-Shapeless: Flower Pot + Bone Meal + Conjuring Ink + Lapis Lazuli.
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/dragon_teacup.png" alt=""><div class="desc"><p>A glyph on the base of the cup, a hidden rune on the saucer. Set the cup down on it and the tea rises in the shape of a little dragon, winding about before it settles. Entirely useless; everyone wants one.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Flower Pot</span><span class="slot text">Bone Meal</span><span class="slot" title="Conjuring Ink"><img class="icon" src="../assets/icons/conjuring_ink.png" alt="Conjuring Ink"></span><span class="slot text">Lapis Lazuli</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/dragon_teacup.png" alt=""></span></div><div class="craft-note">Crafting table, shapeless <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/dragon_teacup.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/water.svg" alt="">Water</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/column.svg" alt="">4 × Column</span></div></div></div></div>
 
 ### Sealchair
 
-A chair on four hoofed legs. Set it down and sit in it: it gets up and walks where you look. Get up and it
-settles again. Break it with an axe to take it along.
-
-```
-P . .     P = Any Planks
-P S P     S = Conjuring Ink
-L . L     L = Leather
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/sealchair.png" alt=""><div class="desc"><p>A chair on four hoofed legs with a glyph under its seat. Set it down and sit in it: it gets up and walks where you look. Get up and it settles down again. Break it with an axe to take it along.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Any Planks</span><span class="slot"></span><span class="slot"></span><span class="slot text">Any Planks</span><span class="slot" title="Conjuring Ink"><img class="icon" src="../assets/icons/conjuring_ink.png" alt="Conjuring Ink"></span><span class="slot text">Any Planks</span><span class="slot text">Leather</span><span class="slot"></span><span class="slot text">Leather</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/sealchair.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/sealchair.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/wind.svg" alt="">Wind</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/float.svg" alt="">4 × Float</span></div></div></div></div>
 
 ## Tools and wonders
 
 ### Arcane Lense
 
-Draw a glyph on it, or right in front of or behind it, and the spell comes out nearly twice as strong.
-
-```
-G A G     G = Gold Ingot
-A D A     A = Amethyst Shard
-G S G     D = Diamond, S = Tinted Glass
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/arcane_lens.png" alt=""><div class="desc"><p>A great lens from before the Pact. Draw a glyph on it, or right in front of or behind it, and the spell comes out nearly twice as strong as its ring and ink would give.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Gold Ingot</span><span class="slot text">Amethyst Shard</span><span class="slot text">Gold Ingot</span><span class="slot text">Amethyst Shard</span><span class="slot text">Diamond</span><span class="slot text">Amethyst Shard</span><span class="slot text">Gold Ingot</span><span class="slot text">Tinted Glass</span><span class="slot text">Gold Ingot</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/arcane_lens.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/arcane_lens.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/light.svg" alt="">Light</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/convergence.svg" alt="">4 × Convergence</span></div></div></div></div>
 
 ### Void Basin
 
-Whatever falls in is gone. Jump in yourself and you fall among the stars, into a hall of stars of its own.
-Draw any glyph there and close its ring to be carried back to where you jumped from. Falling off the
-island takes you home too, the long way round.
-
-```
-O . O     O = Obsidian
-O E O     E = Eye of Ender
-O O O
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/void_basin.png" alt=""><div class="desc"><p>Whatever falls in is gone. Jump in yourself, and you fall among the stars; draw any glyph there to find your way back.</p></div></div><div class="card-media wide"><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/void_basin.jpg"><source src="../assets/clips/void_basin.webm" type="video/webm"></video></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Obsidian</span><span class="slot"></span><span class="slot text">Obsidian</span><span class="slot text">Obsidian</span><span class="slot text">Eye of Ender</span><span class="slot text">Obsidian</span><span class="slot text">Obsidian</span><span class="slot text">Obsidian</span><span class="slot text">Obsidian</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/void_basin.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/void_basin.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/signs/window.svg" alt="">Window</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/pull.svg" alt="">4 × Pull</span></div></div></div></div>
 
 ### Light Tracer Bangle
 
-Two pieces of one crystal. Use the pair to bind them, then give one away. Hold Use and a ribbon of light points
-to the other piece, however far, as long as it is in the same world. Makes two.
-
-```
-. A .     A = Amethyst Shard
-G I G     G = Gold Nugget
-. A .     I = Conjuring Ink
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/light_tracer_bangle.png" alt=""><div class="desc"><p>Bangles cut from one crystal keep remembering they were one. Bind a pair, give one away, and press the glyph (hold use): a ribbon of light runs out towards the other, however far, as long as it is in the same world. Two pieces of one crystal not yet bound. Use the pair to bind them, then give one away.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot text">Amethyst Shard</span><span class="slot"></span><span class="slot text">Gold Nugget</span><span class="slot" title="Conjuring Ink"><img class="icon" src="../assets/icons/conjuring_ink.png" alt="Conjuring Ink"></span><span class="slot text">Gold Nugget</span><span class="slot"></span><span class="slot text">Amethyst Shard</span><span class="slot"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/light_tracer_bangle.png" alt=""><span class="count">2</span></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/light_tracer_bangle.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/light.svg" alt="">Light</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/pull.svg" alt="">4 × Pull</span></div></div></div></div>
 
 ### Raincleaver
 
-A sword covered in countless tiny linked glyphs. Swing it at water or lava (Use) to open a passage you can
-walk through; it closes again after a while. Sneak and use it on the ground to plant it: no water or lava comes
-near it while it stands.
-
-```
-. P .     P = Prismarine Shard
-. I .     I = Iron Sword
-W S W     W = Waterproof Ink, S = Stick
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/raincleaver.png" alt=""><div class="desc"><p>A sword covered in many tiny linked glyphs: many small glyphs joined together are stronger than one big one. It cuts through any liquid. Swing it at water or lava and a passage opens along the stroke, closing again after a while.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot text">Prismarine Shard</span><span class="slot"></span><span class="slot"></span><span class="slot text">Iron Sword</span><span class="slot"></span><span class="slot" title="Waterproof Ink"><img class="icon" src="../assets/icons/waterproof_ink.png" alt="Waterproof Ink"></span><span class="slot text">Stick</span><span class="slot" title="Waterproof Ink"><img class="icon" src="../assets/icons/waterproof_ink.png" alt="Waterproof Ink"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/raincleaver.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/raincleaver.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/water.svg" alt="">Water</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/crush.svg" alt="">4 × Crush</span></div></div></div></div>
 
 ### Ins-tent Staff
 
-Hook it into the ground: a layer of earth rises around you into a tent, the staff holding up its middle.
-It settles back after a few minutes.
-
-```
-. . H     H = Iron Nugget
-I S .     I = Conjuring Ink
-S . .     S = Stick
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/tent_staff.png" alt=""><div class="desc"><p>Hook it into the ground: the earth rises into a tent around you, and settles back after a while. It settles back down after a few minutes.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot"></span><span class="slot text">Iron Nugget</span><span class="slot" title="Conjuring Ink"><img class="icon" src="../assets/icons/conjuring_ink.png" alt="Conjuring Ink"></span><span class="slot text">Stick</span><span class="slot"></span><span class="slot text">Stick</span><span class="slot"></span><span class="slot"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/tent_staff.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/tent_staff.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/earth.svg" alt="">Earth</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/levitation.svg" alt="">4 × Levitation</span></div></div></div></div>
 
 ### Silver-White Capture Pennant
 
-The banner the Knights Moralis carry. Point it and it streams out, winds around whoever it reaches and holds
-them fast. Silk burns. It cannot be crafted: knights drop it rarely.
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/capture_pennant.png" alt=""><div class="desc"><p>The silver-white banner the Knights Moralis carry. Point it and the banner streams out and holds whoever it reaches. Silk burns.</p></div></div><div class="art-row"><div><div class="craft-note">Not craftable: rarely dropped by the Knights Moralis, already awake.</div></div></div></div>
 
-## Clothing
+## Cloaks
 
-Witch's clothing protects about like leather and lasts far longer. It gives no powers of its own; the pointed
-hats only make you feel like a real witch.
-
-| Item | Recipe |
-| --- | --- |
-| Apprentice's Pointed Hat | `. . G / . C . / C W C` (G gold nugget, C cyan wool, W white wool) |
-| Witch's Pointed Hat | `. . W / . L . / L W L` (W white wool, L light gray wool) |
-| Apprentice's Capelet | `C . C / C W C / C C C` (C cyan wool, W white wool) |
-| Witch's Skirt | `W W W / B . B / B . B` (W white wool, B brown wool) |
-| Witch's Shoes | `B . B / L . L` (B black wool, L leather) |
-| Witch's Mantle | `G L G / L W L / L B L` (G gold nugget, L light gray, W white, B black wool) |
+Worn in the chest slot.
 
 ### Wingcloak
 
-A cloak with a flight glyph in its lining and a second glyph that keeps rain and dirt off. Leap and spread it
-to glide; as it opens, a gust throws you up and forward. Cloth tears and burns, and the glyph with it.
-
-```
-F M F     F = Feather, M = Witch's Mantle
-P I P     P = Phantom Membrane, I = Conjuring Ink
-```
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/wingcloak.png" alt=""><div class="desc"><p>A cloak with the flight glyph of the sylph shoes in its lining and a second one that keeps rain and dirt off. Leap, spread it and glide; as it opens a gust throws you up and forward. Cloth tears and burns, and so does the glyph with it.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Feather</span><span class="slot" title="Witch&#x27;s Mantle"><img class="icon" src="../assets/icons/witch_mantle.png" alt="Witch&#x27;s Mantle"></span><span class="slot text">Feather</span><span class="slot text">Phantom Membrane</span><span class="slot" title="Conjuring Ink"><img class="icon" src="../assets/icons/conjuring_ink.png" alt="Conjuring Ink"></span><span class="slot text">Phantom Membrane</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/wingcloak.png" alt=""></span></div><div class="craft-note">Crafting table <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/wingcloak.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/sigils/wind_underfoot.svg" alt="">Wind Underfoot</span></div></div></div></div>
 
 ### Mirror Mantle of Borrowshade
 
-Crouch and keep still: the mantle borrows the shade around you, you fade from sight and creatures lose you.
-Move, and the spell breaks.
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/mirror_mantle.png" alt=""><div class="desc"><p>A mantle woven with Mirror and Gathering Shadows. Crouch and keep still, and it borrows the look of the shade around you: you fade from sight and creatures lose you. Move, and the spell breaks.</p></div></div><div class="art-row"><div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot" title="Witch&#x27;s Mantle"><img class="icon" src="../assets/icons/witch_mantle.png" alt="Witch&#x27;s Mantle"></span><span class="slot text">Glass Pane</span><span class="slot text">Ink Sac</span><span class="slot" title="Invisible Ink"><img class="icon" src="../assets/icons/invisible_ink.png" alt="Invisible Ink"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/mirror_mantle.png" alt=""></span></div><div class="craft-note">Crafting table, shapeless <span class="tag">dormant</span></div></div><div class="wake"><div class="glyph"><img src="../assets/artifacts/mirror_mantle.svg" alt=""></div><div class="recipe"><span class="recipe-label">Wake</span><span class="chip"><img src="../assets/signs/vision.svg" alt="">Vision</span><span class=plus>+</span><span class="chip"><img src="../assets/signs/weave.svg" alt="">4 × Weave</span></div></div></div></div>
 
-Shapeless: Witch's Mantle + Glass Pane + Ink Sac + Invisible Ink.
+## Clothing
 
-### Brimhat gear
+Witch's clothing protects about like leather and lasts far longer. It gives no powers of its own; the pointed hats only make you feel like a real witch. Any boots can carry the flight glyph of [sylph shoes](glyphs.md#sylph-shoes).
 
-The **Brimhat Mask** and **Brimhat Mantle** are dropped by Brimhats. Brimhats take whoever wears the mask
-for one of their own. So do the Knights Moralis. See [Creatures](creatures.md).
+<div class="craft-list"><div class="card mini"><strong>Apprentice&#x27;s Pointed Hat</strong><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot"></span><span class="slot text">Gold Nugget</span><span class="slot"></span><span class="slot text">Cyan Wool</span><span class="slot"></span><span class="slot text">Cyan Wool</span><span class="slot text">White Wool</span><span class="slot text">Cyan Wool</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/apprentice_hat.png" alt=""></span></div><div class="craft-note">Crafting table</div></div><div class="card mini"><strong>Witch&#x27;s Pointed Hat</strong><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot"></span><span class="slot text">White Wool</span><span class="slot"></span><span class="slot text">Light Gray Wool</span><span class="slot"></span><span class="slot text">Light Gray Wool</span><span class="slot text">White Wool</span><span class="slot text">Light Gray Wool</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/witch_hat.png" alt=""></span></div><div class="craft-note">Crafting table</div></div><div class="card mini"><strong>Apprentice&#x27;s Capelet</strong><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Cyan Wool</span><span class="slot"></span><span class="slot text">Cyan Wool</span><span class="slot text">Cyan Wool</span><span class="slot text">White Wool</span><span class="slot text">Cyan Wool</span><span class="slot text">Cyan Wool</span><span class="slot text">Cyan Wool</span><span class="slot text">Cyan Wool</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/witch_robe.png" alt=""></span></div><div class="craft-note">Crafting table</div></div><div class="card mini"><strong>Witch&#x27;s Skirt</strong><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">White Wool</span><span class="slot text">White Wool</span><span class="slot text">White Wool</span><span class="slot text">Brown Wool</span><span class="slot"></span><span class="slot text">Brown Wool</span><span class="slot text">Brown Wool</span><span class="slot"></span><span class="slot text">Brown Wool</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/witch_stockings.png" alt=""></span></div><div class="craft-note">Crafting table</div></div><div class="card mini"><strong>Witch&#x27;s Shoes</strong><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Black Wool</span><span class="slot"></span><span class="slot text">Black Wool</span><span class="slot text">Leather</span><span class="slot"></span><span class="slot text">Leather</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/witch_boots.png" alt=""></span></div><div class="craft-note">Crafting table</div></div><div class="card mini"><strong>Witch&#x27;s Mantle</strong><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot text">Gold Nugget</span><span class="slot text">Light Gray Wool</span><span class="slot text">Gold Nugget</span><span class="slot text">Light Gray Wool</span><span class="slot text">White Wool</span><span class="slot text">Light Gray Wool</span><span class="slot text">Light Gray Wool</span><span class="slot text">Black Wool</span><span class="slot text">Light Gray Wool</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/witch_mantle.png" alt=""></span></div><div class="craft-note">Crafting table</div></div></div>
+
+## Brimhat gear
+
+<div class="card mini-row"><img class="icon big" src="../assets/icons/brimhat_mask.png" alt=""><div><strong>Brimhat Mask</strong><p>Brimhats take its wearer for one of their own. The Knights Moralis do too. Now and then left behind by a Brimhat struck down.</p></div></div>
+
+<div class="card mini-row"><img class="icon big" src="../assets/icons/brimhat_mantle.png" alt=""><div><strong>Brimhat Mantle</strong><p>The ragged black mantle of a Brimhat. Rarely left behind by one struck down.</p></div></div>
+

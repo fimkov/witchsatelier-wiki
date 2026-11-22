@@ -1,11 +1,12 @@
-# Inks
+# Inks and tools
 
-Glyphs are drawn in conjuring ink, brewed from the wood of the silverwood tree. The ink you draw with changes
-how strong a glyph is, how long it lasts and what can wash it away.
+Glyphs are drawn in conjuring ink, brewed from the wood of the silverwood tree. The ink changes how strong a glyph is, how long it lasts and what can wash it away.
 
 ## Brewing
 
-All ink is made in a brewing stand.
+Silverwood grows rarely in forests. Breaking its logs now and then drops a blackened twig. Everything else happens in a brewing stand.
+
+<div class="flow"><span class="step"><img class="icon" src="../assets/icons/silverwood_log.png" alt=""><span>Silverwood Log</span></span><span class="arrow">→</span><span class="step"><img class="icon" src="../assets/icons/blackened_silverwood_twig.png" alt=""><span>Blackened Twig</span></span><span class="arrow">→</span><span class="step"><img class="icon" src="../assets/icons/woodcruor.png" alt=""><span>Woodcruor</span></span><span class="arrow">→</span><span class="step"><img class="icon" src="../assets/icons/conjuring_ink.png" alt=""><span>Conjuring Ink</span></span></div>
 
 | Ingredient | Into | Gives |
 | --- | --- | --- |
@@ -15,38 +16,41 @@ All ink is made in a brewing stand.
 | Phantom membrane | Conjuring Ink | Invisible Ink |
 | Honeycomb | Conjuring Ink | Lasting Ink |
 
-Blackened twigs drop now and then when a silverwood log is broken. Silverwood grows rarely in forests;
-the Stranger also sells saplings and twigs.
-
-**Blood Ink** is not brewed: sneak and use a bottle of plain conjuring ink to bleed into it. It costs you
-health, and it is forbidden.
-
 ## Kinds of ink
 
-| Ink | Power | Duration | Notes |
-| --- | --- | --- | --- |
-| Conjuring Ink | Normal | Normal | Water and rain wash it away |
-| Waterproof Ink | Normal | Normal | Survives water and rain |
-| Invisible Ink | Normal | Normal | Only you can see what you draw with it. Washes off like conjuring ink |
-| Lasting Ink | Normal | Longer | Wears far more slowly under rain and feet |
-| Blood Ink | Three times | Normal | Far less control: glyphs may backfire. Forbidden, see [The Pact](pact.md) |
-| Woodcruor Chalk | Weak | Short | Drawn with a woodcruor wand. Needs no ink; the first rain takes it |
-| Seared Ink | Slightly stronger | Slightly longer | Burned in by a searneedle. Shrugs off water, fire and lava |
+<table class="inks"><thead><tr><th></th><th>Ink</th><th>Made from</th><th>Power</th><th>Duration</th><th>Notes</th></tr></thead><tbody><tr><td><img class="icon" src="../assets/icons/conjuring_ink.png" alt=""></td><td><strong>Conjuring Ink</strong></td><td>Woodcruor + glowstone dust</td><td>Normal</td><td>Normal</td><td>Water and rain wash it away.</td></tr><tr><td><img class="icon" src="../assets/icons/waterproof_ink.png" alt=""></td><td><strong>Waterproof Ink</strong></td><td>Conjuring ink + prismarine shard</td><td>Normal</td><td>Normal</td><td>Survives water and rain.</td></tr><tr><td><img class="icon" src="../assets/icons/invisible_ink.png" alt=""></td><td><strong>Invisible Ink</strong></td><td>Conjuring ink + phantom membrane</td><td>Normal</td><td>Normal</td><td>Only you can see what you draw with it. Washes off like conjuring ink.</td></tr><tr><td><img class="icon" src="../assets/icons/lasting_ink.png" alt=""></td><td><strong>Lasting Ink</strong></td><td>Conjuring ink + honeycomb</td><td>Normal</td><td>Longer</td><td>Rain and passing feet take much longer to break it.</td></tr><tr><td><img class="icon" src="../assets/icons/blood_ink.png" alt=""></td><td><strong>Blood Ink</strong></td><td>Sneak and use conjuring ink</td><td>Three times</td><td>Normal</td><td>Far less control: glyphs may backfire. Costs health. Forbidden.</td></tr></tbody></table>
 
-Ink in a bottle is 256 blocks of line. Pour bottles into an inkwell (it holds four), then carry the inkwell in
-your other hand while drawing or place it on a desk and dip the pen in it.
-
-## Drawing tools
-
-| Tool | Recipe | Use |
-| --- | --- | --- |
-| Ink Pen | Feather, iron nugget, stick (diagonal) | Dips into an inkwell. Draws in whatever ink the inkwell holds |
-| Woodcruor Wand | Two woodcruor and two sticks (diagonal) | Drawn like chalk. No ink needed, wears down instead |
-| Searneedle | Ink pen, copper ingot, blaze powder (2x2) | Burns its ink into the surface: seared glyphs survive water, fire and lava |
-| Rag | Any wool + string | Hold Use on a surface and move your view to wipe ink away |
+A bottle holds 256 blocks of line. Pour bottles into an inkwell (it holds four) and draw from that. Two more kinds of line come from tools, not bottles: **woodcruor chalk** from a woodcruor wand (weak and short-lived, the first rain takes it) and **seared ink** from a searneedle (burned into the surface, proof against water, fire and lava).
 
 ## Wear
 
-Every line wears point by point. Rain makes ink run and bleed; feet make it smear and break up. When a point
-is worn through, the line has a gap there, and a glyph whose ring has a gap stops working. Lasting ink, a neat
-hand and a Repetition band all help a glyph last.
+Every line wears point by point. Rain makes ink run and bleed; feet make it smear and break up. Where a point is worn through, the line has a gap, and a glyph whose ring has a gap stops working. Lasting ink, a neat hand and a Repetition band all help a glyph last.
+
+<div class="card-media wide"><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/ink_wear.jpg"><source src="../assets/clips/ink_wear.webm" type="video/webm"></video></div>
+
+## Tools
+
+### Ink Pen
+
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/ink_pen.png" alt=""><div class="desc"><p>Dips into an inkwell and draws in whatever ink it holds. Sneak to rub out what you drew.</p></div></div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot"></span><span class="slot text">Feather</span><span class="slot"></span><span class="slot text">Iron Nugget</span><span class="slot"></span><span class="slot text">Stick</span><span class="slot"></span><span class="slot"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/ink_pen.png" alt=""></span></div><div class="craft-note">Crafting table</div></div>
+
+### Inkwell
+
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/inkwell.png" alt=""><div class="desc"><p>Holds four bottles of ink (1024 blocks of line). Carry it in your other hand, or place it on a desk and dip into it. Click bottles onto it to fill it.</p></div></div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot text">Gold Nugget</span><span class="slot"></span><span class="slot text">Glass Pane</span><span class="slot"></span><span class="slot text">Glass Pane</span><span class="slot text">Glass Pane</span><span class="slot text">Glass Pane</span><span class="slot text">Glass Pane</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/inkwell.png" alt=""></span></div><div class="craft-note">Crafting table</div></div>
+
+### Palm Quire
+
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/palm_quire.png" alt=""><div class="desc"><p>A small round notebook for prepared glyphs. Up to 32 pages. Ink cannot be rubbed out of it; press T while it is open to tear a page out.</p></div></div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot text">Leather</span><span class="slot"></span><span class="slot text">Paper</span><span class="slot text">Paper</span><span class="slot text">Paper</span><span class="slot"></span><span class="slot text">String</span><span class="slot"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/palm_quire.png" alt=""></span></div><div class="craft-note">Crafting table</div></div>
+
+### Woodcruor Wand
+
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/woodcruor_wand.png" alt=""><div class="desc"><p>Hardened woodcruor, drawn like chalk. Needs no ink, wears down instead. Its lines are weak and the first rain takes them.</p></div></div><div class="craft"><div class="grid" style="grid-template-columns:repeat(3,var(--slot))"><span class="slot"></span><span class="slot"></span><span class="slot" title="Woodcruor"><img class="icon" src="../assets/icons/woodcruor.png" alt="Woodcruor"></span><span class="slot text">Stick</span><span class="slot" title="Woodcruor"><img class="icon" src="../assets/icons/woodcruor.png" alt="Woodcruor"></span><span class="slot"></span><span class="slot text">Stick</span><span class="slot"></span><span class="slot"></span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/woodcruor_wand.png" alt=""></span></div><div class="craft-note">Crafting table</div></div>
+
+### Searneedle
+
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/searneedle.png" alt=""><div class="desc"><p>Burns its ink into the surface: seared lines shrug off water, fire and lava. Its lines are slightly stronger and last slightly longer.</p></div></div><div class="craft"><div class="grid" style="grid-template-columns:repeat(2,var(--slot))"><span class="slot"></span><span class="slot text">Blaze Powder</span><span class="slot" title="Ink Pen"><img class="icon" src="../assets/icons/ink_pen.png" alt="Ink Pen"></span><span class="slot text">Copper Ingot</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/searneedle.png" alt=""></span></div><div class="craft-note">Crafting table</div></div>
+
+### Rag
+
+<div class="card artifact"><div class="art-head"><img class="icon big" src="../assets/icons/rag.png" alt=""><div class="desc"><p>Hold Use on a surface and move your view over the lines to wipe them away.</p></div></div><div class="craft"><div class="grid" style="grid-template-columns:repeat(2,var(--slot))"><span class="slot text">Any Wool</span><span class="slot text">String</span></div><span class="arrow">→</span><span class="slot result"><img class="icon" src="../assets/icons/rag.png" alt=""></span></div><div class="craft-note">Crafting table, shapeless</div></div>
+
