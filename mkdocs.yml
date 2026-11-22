@@ -48,6 +48,7 @@ nav:
   - Home: index.md
   - Getting started: getting-started.md
   - Controls: controls.md
+  - Books: books.md
   - How glyphs work: glyphs.md
   - Sigils and signs: reference.md
   - Spells:

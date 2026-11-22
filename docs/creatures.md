@@ -19,9 +19,10 @@ A Brimhat draws glyphs in the air with a quick hand, every few seconds while it 
 
 **Drops**
 
-<div class="flow"><span class="step"><img class="icon" src="../assets/icons/conjuring_ink.png" alt=""><span>Conjuring Ink</span></span><span class="step"><img class="icon" src="../assets/icons/blood_ink.png" alt=""><span>Blood Ink</span></span><span class="step"><img class="icon" src="../assets/icons/torn_page.png" alt=""><span>Forbidden page</span></span><span class="step"><img class="icon" src="../assets/icons/brimhat_mask.png" alt=""><span>Mask (rare)</span></span><span class="step"><img class="icon" src="../assets/icons/brimhat_mantle.png" alt=""><span>Mantle (rarer)</span></span></div>
+<div class="flow"><span class="step"><img class="icon" src="../assets/icons/conjuring_ink.png" alt=""><span>Conjuring Ink</span></span><span class="step"><img class="icon" src="../assets/icons/blood_ink.png" alt=""><span>Blood Ink</span></span><span class="step"><img class="icon" src="../assets/icons/torn_page.png" alt=""><span>Forbidden page</span></span><span class="step"><img class="icon" src="../assets/icons/brimhat_mask.png" alt=""><span>Mask (rare)</span></span><span class="step"><img class="icon" src="../assets/icons/brimhat_mantle.png" alt=""><span>Mantle (rarer)</span></span><span class="step"><img class="icon" src="../assets/icons/grimoire.png" alt=""><span>Black-Bound Book (rare)</span></span></div>
 
-The forbidden page carries the [Petrification](spells/forbidden.md) glyph, its ring left open. Brimhats leave
+The forbidden page carries the [Petrification](spells/forbidden.md) glyph, its ring left open. The
+[Black-Bound Book](books.md#the-black-bound-book) is the forbidden book itself. Brimhats leave
 anyone wearing a Brimhat mask alone. The Knights Moralis hunt Brimhats on sight.
 
 ## Knight Moralis
@@ -49,15 +50,17 @@ How and when the knights come is on [The Pact](pact.md#the-knights-hunt).
 
 The first time you speak to them, they press a gift into your hands without a word:
 
-<div class="flow"><span class="step"><img class="icon" src="../assets/icons/grimoire.png" alt=""><span>Old Grimoire</span></span><span class="step"><img class="icon" src="../assets/icons/ink_pen.png" alt=""><span>Ink Pen</span></span><span class="step"><img class="icon" src="../assets/icons/conjuring_ink.png" alt=""><span>Conjuring Ink</span></span></div>
+<div class="flow"><span class="step"><img class="icon" src="../assets/icons/grimoire.png" alt=""><span>A Witch's Primer</span></span><span class="step"><img class="icon" src="../assets/icons/ink_pen.png" alt=""><span>Ink Pen</span></span><span class="step"><img class="icon" src="../assets/icons/conjuring_ink.png" alt=""><span>Conjuring Ink</span></span></div>
 
-The grimoire opens with Birds of Light, Pillar of Flame, Lantern, Wind Underfoot and Spilling Water, and ends with a
-page that should never have been in it. After that, the Stranger trades for emeralds:
+The [Primer](books.md#a-witchs-primer) explains how glyphs work and holds Lantern, Birds of Light and Pillar of
+Flame, and on its last page, in blood ink, a glyph that should never have been in it. After that, the Stranger
+trades for emeralds:
 
 | Item | Emeralds |
 | --- | --- |
-| Old Grimoire (four to six glyphs) | 12 |
+| A themed volume, one at random (see [Books](books.md#themed-volumes)) | 12 |
 | Book of Contraptions | 8 |
+| Notes on the Imagined Ring | 16 |
 | Crumpled page with a prepared glyph (two offers) | 2 each |
 | Ink Pen | 4 |
 | Conjuring Ink | 3 |

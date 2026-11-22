@@ -5,7 +5,16 @@
 >
 > *On Forbidden Magic, Book of Contraptions*
 
-Break the Pact, and sooner or later the Knights Moralis come.
+Break the Pact, and sooner or later the Knights Moralis come. The whole story is in *The Black-Bound Book*
+(see [Books](books.md#the-black-bound-book)), which Brimhats rarely leave behind.
+
+## The Day of the Pact
+
+> Once, anyone with ink and a pen could work magic, and some worked terrible things with it. On the Day of the Pact
+> the witches took the knowledge from everyone else and swore to keep it among themselves. Since then the world
+> believes magic is a gift one is born with. It is not: it is drawing, and that is the secret every witch keeps.
+>
+> *The Day of the Pact, The Black-Bound Book*
 
 ## What breaks it
 
@@ -22,6 +31,8 @@ Your debt to the Pact fades slowly with time.
 <div class="card spell"><div class="card-media"><div class="glyph"><img src="../assets/spells/petrification.svg" alt="The Petrification glyph"></div><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/petrification.jpg"><source src="../assets/clips/petrification.webm" type="video/webm"></video></div><div class="recipe"><span class="recipe-label">Inside</span><span class="chip"><img src="../assets/sigils/earth.svg" alt="">Earth</span><span class="plus">+</span><span class="chip"><img src="../assets/signs/eye.svg" alt="">4 × Eye</span></div></div>
 
 Earth under the gaze of four Eyes. Whatever living thing stands before the glyph stiffens and turns to stone.
+It is drawn in blood ink on the last page of *A Witch's Primer* and in *The Black-Bound Book*, and Brimhats
+carry it on torn pages.
 
 ## Integration
 

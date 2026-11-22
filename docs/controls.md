@@ -10,7 +10,7 @@ Options, Controls, Key Binds, *Witch's Atelier*. Everything else uses the game's
 | Draw on a surface | Hold Use with a loaded pen and move your view: the pen follows where you look |
 | Rub out | Sneak while drawing with the pen |
 | Wipe ink away | Hold Use with a rag on a surface and move your view over the lines |
-| Draw a perfect ring | Go round twice in the air without lifting the pen; the third time round lays it down (after reading *The Imagined Ring*) |
+| Draw a perfect ring | Go round twice in the air without lifting the pen; the third time round lays it down (after reading *Notes on the Imagined Ring*) |
 | Draw on a page | Paper or a palm quire in the other hand, Use in the air |
 
 ## Ink
@@ -29,7 +29,7 @@ Options, Controls, Key Binds, *Witch's Atelier*. Everything else uses the game's
 | Open a palm quire | Use it |
 | Tear a page out of a palm quire | ++t++ while it is open |
 | Put pages into a palm quire | Click paper or crumpled pages onto it in your inventory |
-| Show a grimoire glyph for tracing | Hold the grimoire with a pen in the other hand: the glyph shows where you look |
+| Show a book glyph for tracing | Hold the book with a pen in the other hand: the glyph shows where you look |
 | Size it / pin it | Scroll to size it, sneak to pin it, then trace over it with the pen |
 
 ## Artifacts

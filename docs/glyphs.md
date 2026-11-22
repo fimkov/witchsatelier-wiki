@@ -3,7 +3,7 @@
 > A glyph is a ring with a sigil in its middle and signs around it. The sigil is the element; the signs say what it
 > does. Nothing happens until the ring is closed, so witches leave a small gap and close it when they need the spell.
 >
-> *On Glyphs, the first page of every grimoire*
+> *On Glyphs, the first page of A Witch's Primer*
 
 The symbols themselves are on [Sigils and signs](reference.md); every known glyph is under [Spells](spells/index.md).
 

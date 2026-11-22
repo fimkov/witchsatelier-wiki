@@ -4,16 +4,14 @@ Every witch begins the same way: with a pen. This page takes you from nothing to
 
 ## 1. Find a book
 
-<div class="card mini-row"><img class="icon big" src="../assets/icons/grimoire.png" alt=""><div><strong>Old Grimoire</strong><p>Glyphs drawn long ago in lasting ink. They do not cast from the book: you copy them.</p></div></div>
+<div class="card mini-row"><img class="icon big" src="../assets/icons/grimoire.png" alt=""><div><strong>A Witch's Primer</strong><p>How glyphs work, and three glyphs to start with: Lantern, Birds of Light and Pillar of Flame.</p></div></div>
 
-- **Chests.** Dungeons, mineshafts, desert and jungle temples, woodland mansions, ancient cities, ruined portals
-  and trial chamber vaults sometimes hold a grimoire, or a few crumpled pages with prepared glyphs.
-- **Libraries.** Stronghold libraries and **library ruins** (round towers of old stone full of shelves) hold them
-  far more often, and some have glyphs left drawn on the floor.
-- **The Stranger.** A silent figure who sometimes visits villages. The first time you speak to them they give you a
-  grimoire, an ink pen and a bottle of conjuring ink. See [Creatures](creatures.md#stranger).
+You need to know what to draw, and glyphs are learned from old books. The easiest first book comes from the
+**Stranger**, a silent figure who sometimes visits villages: the first time you speak to them they give you
+*A Witch's Primer*, an ink pen and a bottle of conjuring ink. See [Creatures](creatures.md#stranger).
 
-Every grimoire opens with two pages: *On Glyphs* and *The Imagined Ring*. Read both.
+The other glyphs are spread over themed volumes found in library ruins, stronghold libraries and other old chests,
+or bought from the Stranger. Each glyph is in exactly one book: see [Books](books.md) for which.
 
 ## 2. Make a pen and an inkwell
 
@@ -53,8 +51,8 @@ away, and it stops.
 
 ## The Imagined Ring
 
-No hand draws a true circle by itself. Once you have read *The Imagined Ring* in a grimoire, you can lay down a
-perfect ring: go round **twice in the air** over the surface without lifting the pen, and on the third time round
+No hand draws a true circle by itself. Once you have read **Notes on the Imagined Ring**, a thin notebook that is
+rare in library chests and sold by the Stranger, you can lay down a perfect ring: go round **twice in the air** over the surface without lifting the pen, and on the third time round
 the ring is laid down true, as big as you circled, with the small gap every witch leaves. Lift the pen sooner and
 the line goes down exactly as drawn.
 
@@ -64,9 +62,9 @@ You do not have to draw in the middle of a fight. Draw a glyph on paper or in a 
 open. When you need it, hold the page and press ++v++: the ring closes and the spell fires from the page, where
 you look.
 
-## Tracing from a grimoire
+## Tracing from a book
 
-Hold a grimoire with a pen in the other hand and the page's glyph shows faintly where you look. Scroll to size it,
+Hold a book with a pen in the other hand and the page's glyph shows faintly where you look. Scroll to size it,
 sneak to pin it, then trace over it. A faithful copy casts as the page's glyph.
 
 Next: [How glyphs work](glyphs.md), or browse the [spells](spells/index.md).

@@ -339,3 +339,11 @@
 }
 
 .md-typeset .wake .plus { display: none; }
+
+.md-typeset .found {
+  margin-top: 0.7rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--card-border);
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
