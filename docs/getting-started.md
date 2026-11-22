@@ -67,6 +67,6 @@ you look.
 ## Tracing from a grimoire
 
 Hold a grimoire with a pen in the other hand and the page's glyph shows faintly where you look. Scroll to size it,
-press ++shift++ to pin it, then trace over it. A faithful copy casts as the page's glyph.
+sneak to pin it, then trace over it. A faithful copy casts as the page's glyph.
 
 Next: [How glyphs work](glyphs.md), or browse the [spells](spells/index.md).
