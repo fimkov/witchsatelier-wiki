@@ -29,9 +29,10 @@ Your debt to the Pact fades slowly with time.
 
 ## Petrification
 
-<div class="card spell"><div class="card-media"><div class="glyph"><img src="../assets/spells/petrification.svg" alt="The Petrification glyph"></div><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/petrification.jpg"><source src="../assets/clips/petrification.webm" type="video/webm"></video></div><div class="recipe"><span class="recipe-label">Inside</span><span class="chip"><img src="../assets/sigils/earth.svg" alt="">Earth</span><span class="plus">+</span><span class="chip"><img src="../assets/signs/eye.svg" alt="">4 × Eye</span></div></div>
+<div class="card spell"><div class="card-media"><div class="glyph"><img src="../assets/spells/petrification.svg" alt="The Petrification glyph"></div><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/petrification.jpg"><source src="../assets/clips/petrification.webm" type="video/webm"></video></div><div class="recipe"><span class="recipe-label">Inside</span><span class="chip"><img src="../assets/sigils/earth.svg" alt="">Earth in its own ring</span><span class="plus">+</span><span class="chip"><img src="../assets/signs/eye.svg" alt="">4 × Eye</span></div><div class="recipe"><span class="recipe-label">Lunes</span><span class="chip"><img src="../assets/sigils/earth.svg" alt="">4 × Earth</span></div></div>
 
-Earth under the gaze of four Eyes. A ball of glowing cyan crystal bursts out of the glyph and grows about a block
+Earth in a ring of its own under the gaze of four Eyes, with four more Earth seals in lunes cut from the rim (see
+[Mixed sigils](glyphs.md#mixed-sigils)). A ball of glowing cyan crystal bursts out of the glyph and grows about a block
 every quarter of a second, up to 2.5 blocks plus 2.5 for every block of ring radius (10 at most). It swallows
 everything inside: walls, floors, plants, furniture, even the air, and long crystal shards stand out all round its
 surface when it is done.
@@ -43,6 +44,8 @@ surface when it is done.
 
 The glyph is drawn in blood ink on the last page of *A Witch's Primer* and in *The Black-Bound Book*, and Brimhats
 carry it on torn pages, which also turn up in old chests.
+
+<div class="shots"><img src="../assets/screens/petrification_page.jpg" alt="The Petrification page, drawn in blood ink"></div>
 
 ## Integration
 

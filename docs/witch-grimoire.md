@@ -10,7 +10,7 @@ A blank book of 16 pages. Use it to open it. Each spread is one page of yours: n
 
 | Where | What |
 | --- | --- |
-| Left page | Click the top line to name the page, and write your notes below it, straight onto the parchment (up to 320 characters) |
+| Left page | Click the top line to name the page (up to 40 characters) and write your notes below it, straight onto the parchment (up to 320) |
 | Right page | Draw with a pen in your other hand. Drag with the right mouse button to rub out |
 | Contents tab | Lists your pages by the names you gave them; click one to turn to it |
 

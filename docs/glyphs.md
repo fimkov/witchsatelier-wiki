@@ -38,13 +38,22 @@ up to seven layers.
 <div class="card-media wide"><video autoplay muted loop playsinline preload="metadata" poster="../assets/clips/floating_drops.jpg"><source src="../assets/clips/floating_drops.webm" type="video/webm"></video></div>
 
 A second sigil does not have to stand in a band. Draw sigils among the signs, one on each side of the middle sigil,
-and they mix their element into the spell as extra layers. Some pairs make spells of their own:
+and they mix their element into the spell as extra layers.
+
+The old books draw it neatly. The middle sigil sits in a small ring of its own, and each extra sigil sits in a small
+circle inside a **lune**: an arc cut across the rim of the main ring. A sigil in a lune counts just as one drawn
+beside the middle sigil, and the arcs and small rings are not read as signs. A ring only counts as a frame when the
+symbol inside reads well without it, so Wind Underfoot keeps its own circle.
+
+<div class="shots"><img src="../assets/screens/floating_drops_page.jpg" alt="Floating Drops in On Wind and Feather: Wind in its own ring, Water in two lunes"></div>
+
+Some pairs make spells of their own:
 
 | Middle | Sides | Spell |
 | --- | --- | --- |
-| Wind (or Airy Forms) | Water | **Floating Drops**: drops of water hang in the air round the ring. They put out burning creatures and fires and moisten farmland |
-| Water | Fire | **Rainflinger**: a bubble that no water gets into |
-| Anything but Light | Light | **Beast Repellent**: animals and hostile creatures are pushed out of its light. Tamed animals are left alone |
+| Wind (or Airy Forms) | Water | [**Floating Drops**](spells/wind.md#floating-drops): drops of water hang in the air round the ring. They put out burning creatures and fires and moisten farmland |
+| Water | Fire | [**Rainflinger**](spells/water.md#rainflinger): rain and standing water are kept out of its reach |
+| Anything but Light | Light | [**Beast Repellent**](spells/earth.md#beast-repellent): animals and hostile creatures are driven out of its reach. Tamed animals are left alone |
 
 ## Chains and triggers
 
