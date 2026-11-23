@@ -12,6 +12,7 @@ Options, Controls, Key Binds, *Witch's Atelier*. Everything else uses the game's
 | Wipe ink away | Hold Use with a rag on a surface and move your view over the lines |
 | Draw a perfect ring | Go round twice in the air without lifting the pen; the third time round lays it down (after reading *Notes on the Imagined Ring*) |
 | Draw on a page | Paper or a palm quire in the other hand, Use in the air |
+| Switch a sign off | Strike a straight line right through it |
 
 ## Ink
 
@@ -48,11 +49,15 @@ Options, Controls, Key Binds, *Witch's Atelier*. Everything else uses the game's
 | Part water or lava | Use the Raincleaver towards it; sneak and use on the ground to plant it |
 | Follow a light tracer bangle | Hold Use |
 | Ride a sealchair | Sit in it and look where you want it to walk |
+| Bind a pair of doorknobs | Use the pair; then use each knob on a door. Sneak and use the door with an empty hand to take a knob off |
+| Seal a fragment in a guidance orb | Sneak and use the orb with the fragment in your other hand; hold Use to follow the thread; sneak and use again to shake it out |
+| Send a fluttergram | Name it on an anvil after the player, hold a book, paper or map in the other hand and use it |
 
 ## Triggers and arrows
 
 | Action | How |
 | --- | --- |
 | Press a Tread glyph | Stand on it, or power the block it is drawn on with a lever, button, pressure plate or redstone block |
+| Keep a Tread for yourself | Close it while you stand in it: only you can press it from then on |
 | Cast a glyph from afar | Shoot a glyph arrow from a bow or crossbow |
 | Cast a glyph from a dispenser | Put paper or a torn page with a glyph in it, or glyph arrows, and power it |

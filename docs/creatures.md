@@ -36,7 +36,9 @@ anyone wearing a Brimhat mask alone. The Knights Moralis hunt Brimhats on sight.
 | Attack | 7 |
 | Behaviour | Neutral unless you have broken the Pact, wear a Brimhat mask or strike it first. Hostile to Brimhats |
 
-A knight first pins its target with a ring of binding light, then closes in with the blade. Knights step out of thin
+A knight first pins its target with a ring of binding light, then closes in with the blade. A witch it hunts, bound
+and worn down, it would rather take alive: its pennant turns black and erases instead of killing
+([Sinsinger's Talons](pact.md#the-knights-hunt)). Knights step out of thin
 air near the one they are sent for, and when walking gets them no closer (water, walls, a tower of blocks) they step
 across. When their work is done they turn away, walk off a little and vanish in a fold of light.
 

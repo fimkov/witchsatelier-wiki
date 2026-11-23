@@ -15,12 +15,28 @@ The symbols themselves are on [Sigils and signs](reference.md); every known glyp
 | **Neatness** | A neat hand makes a stronger glyph that wears more slowly. |
 | **Ink** | Some inks are stronger, last longer or resist water. See [Inks](inks.md). |
 | **Wear** | A glyph works for as long as it is whole. Rain washes ordinary ink away, feet scuff it, a rag rubs it out. |
-| **Orientation** | A sign drawn the other way round does the opposite: Levitation presses down, Pull pushes, Crush mends. |
+| **Orientation** | A sign drawn the other way round does the opposite: Levitation presses down, Pull pushes, Crush mends. Columns turned inward lay the element flat along the surface instead of raising it. |
+| **Striking out** | A straight line struck right through a sign switches it off, as if it were never drawn. A page that cannot be rubbed out can still be mended this way. |
 | **Counting** | Some signs count: each Bolt is one fireball, each Bird is one bird. |
+| **Pictures** | A picture sign calls up the thing it shows, made of the element: a Horse over Water is a horse of water. |
 | **Sign size** | Signs drawn big beside their ring make the spell stronger, small ones weaker: up to about a third either way. |
 | **Lean** | A sign drawn longer on one side pulls the spell that way. |
 | **Mixing** | Two kinds of shaping in one ring work side by side, if each is drawn at least twice. A single stray sign does nothing. |
 | **Surface** | A glyph on a wall throws its spell sideways. Earth magic needs a surface: from a page, look at the block. |
+
+## Regions
+
+<div class="card mini-row"><img class="icon big" src="../assets/signs/region.svg" alt=""><div><p>The <strong>Region</strong> sign, a little fork, does not move a spell: it says where the spell may happen. Draw it between the other signs.</p></div></div>
+
+| Regions | The spell happens |
+| --- | --- |
+| Opening outward | Outside the ring: the middle is kept clear |
+| Opening inward | Inside the ring only |
+| A pair facing each other | On the ring line |
+| All opening one way | On that side |
+
+[Ring of Fire](spells/fire.md#ring-of-fire) is Fire with four Dispersion signs and four outward Regions: the flames run in
+a ring around a safe centre.
 
 ## Nested glyphs
 
@@ -67,6 +83,8 @@ stronger: many small linked glyphs beat one big one. The Raincleaver's blade is 
 - **A glyph with a Tread sign** is a trigger. It works only while it is pressed: something standing on it (not its
   maker), or the block it is drawn on powered by redstone (a lever, button, pressure plate or redstone block next
   to it). Let go, and about two seconds later it waits again.
+- **A Tread closed while someone stands in it** remembers them: from then on only they can press it.
+- **A Tread turned inward** works the other way round: awake while nobody stands on it, quiet while it is pressed.
 - **The rest of a chain with a trigger** waits for it: when the trigger is pressed they light in order along the
   lines, and when it is released they go back to waiting.
 
