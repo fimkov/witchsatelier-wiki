@@ -111,7 +111,8 @@ With no ink on the spot to keep it going, a spell cast this way lasts ten second
 
 Draw the Window sign alone in a ring on a wall, floor or door, then another somewhere else: they join, and you can
 step into one and out of the other. A new window joins the last of yours still waiting. Joined windows share a rim
-colour; a waiting one stays dark grey. Make the ring at least two and a half blocks across, or you will not fit.
+colour; a waiting one stays dark grey. Make the ring at least two and a half blocks across, or you will not fit. Through
+a joined window you see the other side, with Sodium, Iris and shader packs too.
 
 ## Sylph shoes
 
